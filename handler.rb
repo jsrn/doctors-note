@@ -71,7 +71,12 @@ class DoctorsNote
       subject: {
         reference: 'Patient/you'
       },
-      onsetDateTime: Time.now.strftime('%Y-%m-%d')
+      onsetDateTime: Time.now.strftime('%Y-%m-%d'),
+      note: [
+        {
+          text: "Add more conditions at https://github.com/jsrn/doctors-note"
+        }
+      ]
     }
   end
 
