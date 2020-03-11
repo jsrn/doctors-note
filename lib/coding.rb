@@ -6,7 +6,8 @@ class Coding
       CodeStruct.new('225609009', 'Stiff legs'),
       CodeStruct.new('79859009', 'Computer programmer'),
       CodeStruct.new('25064002', 'Headache'),
-      CodeStruct.new('26413003', 'Low motivation')
+      CodeStruct.new('26413003', 'Low motivation'),
+      CodeStruct.new('217288009', 'Hit by object falling from burning travel trailer')
     ].sample
   end
 end
